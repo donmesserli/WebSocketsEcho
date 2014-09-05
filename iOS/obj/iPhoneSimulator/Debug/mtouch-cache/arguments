@@ -1,0 +1,35 @@
+# Version: 7.4.0.108 (77efa3f)
+# [first argument, ignore] # /Users/don/Projects/WebSocketsEcho/iOS/bin/iPhoneSimulator/Debug/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/7.4.0.108/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/don/Projects/WebSocketsEcho/iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-sim \
+	/Users/don/Projects/WebSocketsEcho/iOS/bin/iPhoneSimulator/Debug/WebSocketsEchoiOS.app \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/monotouch.dll \
+	-r \
+	/Users/don/Projects/WebSocketsEcho/iOS/../packages/Xamarin.Forms.1.0.6186/lib/MonoTouch10/Xamarin.Forms.Platform.iOS.dll \
+	-r \
+	/Users/don/Projects/WebSocketsEcho/iOS/../packages/Xamarin.Forms.1.0.6186/lib/MonoTouch10/Xamarin.Forms.Core.dll \
+	-r \
+	/Users/don/Projects/WebSocketsEcho/iOS/../packages/Xamarin.Forms.1.0.6186/lib/MonoTouch10/Xamarin.Forms.Xaml.dll \
+	-r \
+	/Users/don/Projects/WebSocketsEcho/Components/btprogresshud-1.10/lib/ios/BTProgressHUD.dll \
+	-debug \
+	-nolink \
+	-sdk \
+	7.1 \
+	-targetver \
+	7.0 \
+	--abi=i386 \
+	/Users/don/Projects/WebSocketsEcho/iOS/bin/iPhoneSimulator/Debug/WebSocketsEchoiOS.exe \

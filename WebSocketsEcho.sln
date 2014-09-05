@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WebSocketsEcho", "WebSocketsEcho\WebSocketsEcho.shproj", "{753B3139-AFCA-4945-B81A-E71249CD234B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketsEcho.iOS", "iOS\WebSocketsEcho.iOS.csproj", "{B20A3F75-C137-444D-947B-834342C18AE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketsEcho.Android", "Android\WebSocketsEcho.Android.csproj", "{A148B023-D796-4CF8-9AFE-0F34C6AA7CAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A148B023-D796-4CF8-9AFE-0F34C6AA7CAE}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{A148B023-D796-4CF8-9AFE-0F34C6AA7CAE}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{A148B023-D796-4CF8-9AFE-0F34C6AA7CAE}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{A148B023-D796-4CF8-9AFE-0F34C6AA7CAE}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{A148B023-D796-4CF8-9AFE-0F34C6AA7CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A148B023-D796-4CF8-9AFE-0F34C6AA7CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A148B023-D796-4CF8-9AFE-0F34C6AA7CAE}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{A148B023-D796-4CF8-9AFE-0F34C6AA7CAE}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{A148B023-D796-4CF8-9AFE-0F34C6AA7CAE}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{A148B023-D796-4CF8-9AFE-0F34C6AA7CAE}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{A148B023-D796-4CF8-9AFE-0F34C6AA7CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A148B023-D796-4CF8-9AFE-0F34C6AA7CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A148B023-D796-4CF8-9AFE-0F34C6AA7CAE}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{A148B023-D796-4CF8-9AFE-0F34C6AA7CAE}.Release|iPhone.Build.0 = Release|Any CPU
+		{A148B023-D796-4CF8-9AFE-0F34C6AA7CAE}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{A148B023-D796-4CF8-9AFE-0F34C6AA7CAE}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{B20A3F75-C137-444D-947B-834342C18AE7}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{B20A3F75-C137-444D-947B-834342C18AE7}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{B20A3F75-C137-444D-947B-834342C18AE7}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{B20A3F75-C137-444D-947B-834342C18AE7}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{B20A3F75-C137-444D-947B-834342C18AE7}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{B20A3F75-C137-444D-947B-834342C18AE7}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{B20A3F75-C137-444D-947B-834342C18AE7}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{B20A3F75-C137-444D-947B-834342C18AE7}.Debug|iPhone.Build.0 = Debug|iPhone
+		{B20A3F75-C137-444D-947B-834342C18AE7}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{B20A3F75-C137-444D-947B-834342C18AE7}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{B20A3F75-C137-444D-947B-834342C18AE7}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{B20A3F75-C137-444D-947B-834342C18AE7}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{B20A3F75-C137-444D-947B-834342C18AE7}.Release|iPhone.ActiveCfg = Release|iPhone
+		{B20A3F75-C137-444D-947B-834342C18AE7}.Release|iPhone.Build.0 = Release|iPhone
+		{B20A3F75-C137-444D-947B-834342C18AE7}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{B20A3F75-C137-444D-947B-834342C18AE7}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = iOS\WebSocketsEcho.iOS.csproj
+	EndGlobalSection
+EndGlobal
